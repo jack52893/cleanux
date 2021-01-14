@@ -9,23 +9,23 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$lemonada-app-primary: mat-palette($mat-blue);
-$lemonada-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+$cleanux-app-primary: mat-palette($mat-blue);
+$cleanux-app-accent:  mat-palette($mat-pink, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$lemonada-app-warn:    mat-palette($mat-red);
+$cleanux-app-warn:    mat-palette($mat-red);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as `color` or `typography`.
-$lemonada-app-theme: mat-light-theme((
+$cleanux-app-theme: mat-light-theme((
   color: (
-    primary: $lemonada-app-primary,
-    accent: $lemonada-app-accent,
-    warn: $lemonada-app-warn,
+    primary: $cleanux-app-primary,
+    accent: $cleanux-app-accent,
+    warn: $cleanux-app-warn,
   )
 ));
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include angular-material-theme($lemonada-app-theme);
+@include angular-material-theme($cleanux-app-theme);
